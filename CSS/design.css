@@ -1,0 +1,223 @@
+
+
+body
+{
+	/*background-color : #CBD0DE;*/
+  background-color: red  !important;
+
+}
+
+header
+{
+  background-color: yellow;
+  color:white;
+  position: relative;
+  
+}
+.header
+{
+  display: none;
+}
+
+nav
+{
+  margin-bottom: 5px;
+}
+.logo
+{
+  color: white;
+  width: 250px;
+  height: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+  margin-top:250px;
+  border-radius: 50%;
+  background-color:purple;
+  background-image: url("..//Images/Icon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+   box-shadow: 5px 5px 10px 10px purple;
+}
+
+/*whoe*/
+ 
+
+   
+
+.logo:hover
+{
+  /*background-color: blue;*/
+  box-shadow: 1px 1px 2px 2px hsl(163, 100%, 75%);
+}
+.logo p
+{
+  text-align: center;
+  color:black;
+  padding-top: 50%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+p{
+  color:black;
+  font-size: 18px;
+
+}
+
+.projectImage
+{
+  
+  margin-left:10px;
+  margin-right:10px;
+  
+
+}
+
+.Information
+{
+  margin-top: 5px;
+  background-color: red;
+
+
+}
+
+
+.about
+{
+  display: none;
+
+}
+.about p
+{
+  text-align: center;
+ color:white;
+ font-size:18px;
+}
+
+.maincontent
+{
+  margin-top: 250px;
+  display: none;
+}
+
+.white
+{
+  background-color: white !important;
+}
+.projectImage
+{
+
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.projectImage:hover
+{
+ border: 10px blue solid;
+  background-color: white !important;
+}
+.section h1
+{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.jumbotron a
+{
+  margin-left: 40%;
+  margin-right: 50%;
+}
+.info
+{
+  background-color: blue;
+}
+.info h1
+{
+ background-color: white;
+  text-align: center;
+  font-weight: bold;
+
+}
+.info p
+{
+  color:white;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.skill ul
+{
+  list-style-type: square;
+  margin-left: 10px;
+}
+.skill ul li
+{
+  color: white;
+  padding:5px;
+  display: inline;
+  text-align: center;
+ 
+}
+.skill h1
+{
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.tools h1
+{
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.tools ul li
+{
+  padding:5px;
+  color:white;
+}
+
+.footer p
+{
+  text-align: center;
+  color: white;
+}
+
+.contact-info
+{
+  background-color: white;
+  margin-top: 300px;
+  width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+}
+.contact-info a
+{
+  margin-left: 90px;
+  color: blue;
+
+}
+.contact-info:hover
+{
+  background-color:#FFD700
+}
+.Thanks
+{
+  width: 500px;
+  margin:0 auto;
+}
+.Thanks p
+{
+  text-align: center;
+  font-size: 18px;
+  color:white;
+}
+
+.contact-info a:hover
+{
+  color: white;
+}
