@@ -69,9 +69,9 @@ p{
 .projectImage
 {
   
-  margin-left:10px;
-  margin-right:10px;
-  
+ 
+  height:350px;
+
 
 }
 
@@ -111,6 +111,7 @@ p{
 
   margin-left: 10px;
   margin-top: 5px;
+   width: 90%;
 }
 .projectImage:hover
 {
@@ -223,13 +224,58 @@ p{
 }
 
 
+#one
+{
+  background-image: url("..//Images/Bookstore.PNG");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
 #two
 {
-  width: auto;
-  height: 500px;
+  
   background-image: url("..//Images/Clientside.PNG");
   background-repeat: no-repeat;
   background-size: auto;
+}
+
+#three
+{
+  
+  background-image: url("..//Images/Webapplication.PNG");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+/*Web applications */
+#four
+{
+  
+  background-image: url("..//Images/AtlanticResort.PNG");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
 
 
+#five
+{
+  
+  background-image: url("..//Images/Artistica.PNG");
+ background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#six
+{
+  
+  background-image: url("..//Images/Restaurant.PNG");
+ background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#seven
+{
+  
+  background-image: url("..//Images/BossRun.PNG");
+ background-repeat: no-repeat;
+  background-size: auto;
 }
