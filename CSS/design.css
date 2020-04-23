@@ -221,3 +221,15 @@ p{
 {
   color: white;
 }
+
+
+#two
+{
+  width: auto;
+  height: 500px;
+  background-image: url("..//Images/Clientside.PNG");
+  background-repeat: no-repeat;
+  background-size: auto;
+
+
+}
