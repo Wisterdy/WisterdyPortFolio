@@ -58,6 +58,12 @@ nav
   font-size: 24px;
   font-weight: bold;
 }
+.logo h1
+{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
 
 
 p{
