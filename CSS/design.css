@@ -104,7 +104,7 @@ p{
 
 .maincontent
 {
-  margin-top: 250px;
+  margin-top: 200px;
   display: none;
 }
 
@@ -285,3 +285,9 @@ p{
  background-repeat: no-repeat;
   background-size: auto;
 }
+
+i
+{
+ color:white;
+}
+
