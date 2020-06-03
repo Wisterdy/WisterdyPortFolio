@@ -61,7 +61,7 @@ nav
 .logo h1
 {
   text-align: center;
-  color: white;
+  color: red;
   font-weight: bold;
 }
 
@@ -291,3 +291,7 @@ i
  color:white;
 }
 
+#comming
+{
+  text-align: center;
+}
