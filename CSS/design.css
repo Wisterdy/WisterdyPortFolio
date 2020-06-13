@@ -1,9 +1,14 @@
 
+:root {
+  --main-bg-color: #191970;
+   --main-text-color: black;
+ 
+}
 
 body
 {
 	/*background-color : #CBD0DE;*/
-  background-color: red  !important;
+  background-color: var(--main-bg-color) !important;
 
 }
 
@@ -67,7 +72,7 @@ nav
 
 
 p{
-  color:black;
+  color:var(--main-text-color);
   font-size: 18px;
 
 }
