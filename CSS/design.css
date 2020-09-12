@@ -1,6 +1,7 @@
 
 :root {
-  --main-bg-color: #191970;
+  /*#191970*/
+  --main-bg-color:#4169E1;
    --main-text-color: black;
  
 }
@@ -85,6 +86,11 @@ p{
 
 
 }
+.projectImage img
+{
+   width: 100% !important;
+   height:100% ! important;
+}
 
 .Information
 {
@@ -113,9 +119,9 @@ p{
   display: none;
 }
 
-.white
+.ImageContainerStyling
 {
-  background-color: white !important;
+  background-color: black !important;
 }
 .projectImage
 {
@@ -134,6 +140,11 @@ p{
   text-align: center;
   color: white;
   font-weight: bold;
+}
+.section
+{
+  background-color: white !important;
+
 }
 
 .jumbotron a
@@ -291,6 +302,14 @@ p{
   background-size: auto;
 }
 
+#eight
+{
+  
+  background-image: url("..//Images/Gym.PNG");
+ background-repeat: no-repeat;
+  background-size: auto;
+}
+
 i
 {
  color:white;
@@ -299,4 +318,16 @@ i
 #comming
 {
   text-align: center;
+}
+
+h1, p, h2,h3, li
+{
+ color: black !important;
+  font-family: "Time new Roman", Arial, sans-serif;
+}
+
+p,li
+{
+  font-size: 20px !important;
+
 }
