@@ -2,7 +2,7 @@
 body
 {
 	/*background-color : #CBD0DE;*/
-  background-color: #4169E1 ! important;
+  background-color: #ced5e7 ! important;
 
 }
 
@@ -22,24 +22,33 @@ nav
 {
   margin-bottom: 5px;
 }
+.navbar-brand i {
+  margin-right: 8px; /* Adds space between the icon and text */
+}
 .logo
 {
   color: white;
-  width: 250px;
-  height: 250px;
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 0;
   margin-top:250px;
   border-radius: 50%;
-  background-color:purple;
-  background-image: url("..//Images/Icon.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-   box-shadow: 5px 5px 10px 10px purple;
+   box-shadow:  0 0 15px 8px rgba(255, 223, 186, 0.8);
 }
 
-/*whoe*/
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the entire container */
+  z-index: -1; /* Places the video behind the text */
+}
  
 
    
@@ -52,15 +61,17 @@ nav
 .logo p
 {
   text-align: center;
-  color:black;
-  padding-top: 50%;
-  font-size: 24px;
+  color:rgb(255, 255, 255) !important;
+  padding-top: 40%;
+  font-size: 20px;
   font-weight: bold;
+  line-height: 1.5;
+  padding-bottom: 2px;
 }
 .logo h1
 {
   text-align: center;
-  color: red;
+  color: rgb(255, 255, 255) !important;
   font-weight: bold;
 }
 
@@ -102,7 +113,7 @@ p{
 .about p
 {
   text-align: center;
- color:white;
+ color:#333333 !important ;
  font-size:18px;
 }
 
@@ -147,7 +158,12 @@ p{
 }
 .info
 {
-  background-color: blue;
+  background-color: rgb(210, 210, 230) ;
+}
+
+/*overriding boostrap default bg-info color*/
+.bg-info {
+  background-color:  #d1ecf1 !important;
 }
 .info h1
 {
@@ -213,13 +229,13 @@ p{
 }
 .contact-info a
 {
-  margin-left: 90px;
+  margin-left: 80px;
   color: blue;
 
 }
 .contact-info:hover
 {
-  background-color:#FFD700
+  background-color: #007bff
 }
 .Thanks
 {
@@ -316,7 +332,8 @@ i
 h1, p, h2,h3, li
 {
  color: black !important;
-  font-family: "Time new Roman", Arial, sans-serif;
+ /* font-family: "Time new Roman", Arial, sans-serif;*/
+ font-family: 'Roboto', Arial, sans-serif; /* For body text */
 }
 
 p,li
